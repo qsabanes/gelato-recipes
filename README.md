@@ -3,6 +3,18 @@
 A small, zero-build website to browse my gelato & sorbet recipes from any device.
 No frameworks, no build step — just HTML/CSS/JS that reads markdown files.
 
+## Features
+
+- **Installable app (PWA) + offline.** "Add to Home Screen" on your phone; works with no signal (a service worker caches everything on first visit).
+- **Ingredient scaling.** Per recipe, tap ½ / 1× / 2× / 3× (or type a custom factor) and every gram quantity — and the batch size in the title — recalculates.
+- **Keep screen awake** while a recipe is open (toggle in the toolbar).
+- **Tap-to-check** ingredients and steps as you go; saved per recipe on that device.
+- **Favorites & recents** pinned at the top of the sidebar and the home page.
+- **Home cards, search, dark mode**, responsive for phone & PC.
+
+Adding a recipe doesn't change with these features — emoji icons are picked
+automatically from the title, and there's nothing extra to fill in.
+
 ## How it works
 
 - Each recipe is a markdown file in [`recipes/`](recipes/).

@@ -177,3 +177,91 @@ body {
   }
   .content { padding: 20px 16px 80px; }
 }
+
+/* ---------- Recipe toolbar (scaling + tools) ---------- */
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 24px;
+  padding: 10px 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  position: sticky;
+  top: 56px;
+  z-index: 10;
+}
+.scaler { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.scaler .lbl { font-size: .8rem; color: var(--muted); margin-right: 2px; }
+.scaler button {
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  border-radius: 8px;
+  padding: 5px 11px;
+  font-size: .9rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+.scaler button.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+.scaler .custom {
+  width: 56px; padding: 5px 8px;
+  border: 1px solid var(--border); border-radius: 8px;
+  background: var(--bg); color: var(--text); font-size: .9rem;
+}
+.tools { display: flex; gap: 6px; flex-wrap: wrap; }
+.tbtn {
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  border-radius: 8px;
+  padding: 5px 11px;
+  font-size: .85rem;
+  cursor: pointer;
+}
+.tbtn:hover { border-color: var(--accent); }
+
+/* ---------- Check-off ---------- */
+.checkable { cursor: pointer; transition: opacity .15s; }
+.content li.checkable { list-style: none; position: relative; padding-left: 26px; }
+.content li.checkable::before {
+  content: "";
+  position: absolute; left: 0; top: .35em;
+  width: 15px; height: 15px;
+  border: 1.5px solid var(--muted);
+  border-radius: 4px;
+}
+.content li.checkable.checked::before {
+  content: "✓";
+  background: var(--accent); border-color: var(--accent); color: #fff;
+  font-size: 11px; line-height: 15px; text-align: center;
+}
+.content li.checkable.checked { color: var(--muted); text-decoration: line-through; text-decoration-color: var(--muted); }
+.content tbody tr.checkable.checked td { color: var(--muted); text-decoration: line-through; }
+.content tbody tr.checkable:hover td { background: var(--accent-soft); }
+
+/* ---------- Home cards ---------- */
+.home-title { font-size: 1.9rem; margin-bottom: .2em; }
+.home-sub { color: var(--muted); margin-top: 0; }
+.home-h { font-size: 1.05rem; margin: 1.8em 0 .6em; border: none; padding: 0; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+.card {
+  display: flex; align-items: center; gap: 12px;
+  padding: 14px; border: 1px solid var(--border); border-radius: 14px;
+  background: var(--surface); text-decoration: none; color: var(--text);
+  position: relative; transition: transform .12s, box-shadow .12s, border-color .12s;
+}
+.card:hover { transform: translateY(-2px); box-shadow: var(--shadow); border-color: var(--accent); }
+.card-emoji { font-size: 1.9rem; line-height: 1; }
+.card-body { display: flex; flex-direction: column; min-width: 0; }
+.card-title { font-weight: 600; font-size: .98rem; }
+.card-tags { font-size: .76rem; color: var(--muted); margin-top: 2px; }
+.card-fav {
+  position: absolute; top: 8px; right: 10px;
+  background: none; border: none; cursor: pointer;
+  font-size: 1.05rem; line-height: 1; color: var(--muted);
+}
+.card-fav:hover { transform: scale(1.15); }
