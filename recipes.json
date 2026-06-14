@@ -1,0 +1,14 @@
+[
+  { "file": "canela.md",        "title": "Gelato de Canela Pura",            "category": "Gelato",  "tags": ["especias", "clásico"] },
+  { "file": "caramelo.md",      "title": "Gelato de Caramelo con Variegato",  "category": "Gelato",  "tags": ["caramelo", "variegato"] },
+  { "file": "chocolate.md",     "title": "Gelato de Chocolate 100% Cacao",    "category": "Gelato",  "tags": ["chocolate"] },
+  { "file": "pistacho.md",      "title": "Gelato de Pistacho Técnico",        "category": "Gelato",  "tags": ["fruto seco"] },
+  { "file": "avellana.md",      "title": "Gelato de Avellana Piamonte",       "category": "Gelato",  "tags": ["fruto seco"] },
+  { "file": "speculoos.md",     "title": "Gelato de Speculoos",               "category": "Gelato",  "tags": ["especias", "caramelo"] },
+  { "file": "vainilla.md",      "title": "Gelato de Vainilla Real",           "category": "Gelato",  "tags": ["clásico"] },
+  { "file": "limon-albahaca.md","title": "Sorbete de Limón y Albahaca",       "category": "Sorbete", "tags": ["cítrico", "herbal"] },
+  { "file": "mango.md",         "title": "Sorbete de Mango Rescate",          "category": "Sorbete", "tags": ["fruta"] },
+  { "file": "sandia.md",        "title": "Sorbete de Sandía Fresh Lab",       "category": "Sorbete", "tags": ["fruta"] },
+  { "file": "manzana-verde.md", "title": "Sorbete Ácido Extremo de Manzana Verde", "category": "Sorbete", "tags": ["fruta", "ácido"] },
+  { "file": "piparra.md",       "title": "Sorbete Gastronómico de Piparra",   "category": "Sorbete", "tags": ["gastronómico", "salado"] }
+]

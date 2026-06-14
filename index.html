@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0f766e" />
+  <title>Recetario Gelato</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <button id="menuToggle" class="icon-btn" aria-label="Menú">☰</button>
+    <h1 class="brand">🍨 Recetario Gelato</h1>
+    <button id="themeToggle" class="icon-btn" aria-label="Cambiar tema">🌙</button>
+  </header>
+
+  <div class="layout">
+    <aside id="sidebar" class="sidebar">
+      <div class="search-wrap">
+        <input id="search" type="search" placeholder="Buscar receta o ingrediente…" autocomplete="off" />
+      </div>
+      <nav id="nav" class="nav"></nav>
+    </aside>
+
+    <div id="backdrop" class="backdrop"></div>
+
+    <main id="content" class="content">
+      <p class="loading">Cargando recetas…</p>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
