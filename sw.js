@@ -1,18 +1,21 @@
 // Service worker: network-first with cache fallback (offline support).
-const CACHE = 'gelato-v1';
+const CACHE = 'gelato-v2';
+const LANGS = ['es', 'ca', 'en'];
 const CORE = [
-  './', './index.html', './styles.css', './app.js', './recipes.json',
-  './manifest.webmanifest', './vendor/marked.min.js',
+  './', './index.html', './styles.css', './app.js', './calc.js', './analysis.js',
+  './i18n.js', './recipes.json', './manifest.webmanifest', './vendor/marked.min.js',
   './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png'
 ];
 
 self.addEventListener('install', e => {
   e.waitUntil((async () => {
     const c = await caches.open(CACHE);
-    await c.addAll(CORE).catch(() => {});
+    await Promise.allSettled(CORE.map(u => c.add(u)));
     try {
       const list = await (await fetch('./recipes.json')).json();
-      await c.addAll(list.map(x => './recipes/' + x.file)).catch(() => {});
+      const urls = [];
+      list.forEach(x => LANGS.forEach(l => urls.push('./recipes/' + l + '/' + x.file)));
+      await Promise.allSettled(urls.map(u => c.add(u)));  // missing translations just fail silently
     } catch (err) {}
     self.skipWaiting();
   })());
