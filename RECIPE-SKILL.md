@@ -24,7 +24,10 @@ scoopable. Wrong → icy, gummy, or rock-hard.
 - **MSNF** (milk solids-non-fat, from skimmed milk powder) — proteins that trap air and
   give body, plus lactose. Keep 7–15 %; too much tastes sandy (lactose crystals).
 - **Inulin** — clean solids/fibre for body; essential in sorbets that have no dairy.
-- **Guar gum** — stabiliser that binds free water and slows ice growth. Tiny amounts.
+- **Guar gum** — stabiliser that binds free water and slows ice growth. Tiny amounts only —
+  above ~0.5 g per 800 g (gelato) or ~2.5 g (sorbet) it turns gummy and chewy. Scoopulator's
+  0.4–0.6 % stabilizer target assumes a professional **blend** (guar + locust bean gum +
+  carrageenan); do not try to hit it with pure guar.
 - **Salt** — ~1 g lifts and rounds flavour (especially caramel, nut, chocolate).
 - **Total solids** — everything that isn't water. Target ~35–45 % (gelato),
   ~28–36 % (sorbet): enough body to avoid iciness, not so much it's heavy.
@@ -40,6 +43,10 @@ Dextrose is the lever, and over-using it is the classic mistake. Per **800 g bat
 - **Dextrose: ~45–65 g (gelato), ~45–55 g (sorbet). Do not exceed ~65 g / ~55 g.**
   (Old recipes used 80–130 g and came out far too soft to scoop at −18 °C.)
 - **Sucrose:** whatever sugar is left after setting sweetness.
+- **Scoopulator's serving-temp targets (gelato −14 to −10 °C, sorbet −16 to −12 °C) are for
+  professional display cabinets, not home freezers.** Do not use them as recipe targets — a
+  recipe hitting −14 °C would be rock-hard straight from a −18 °C freezer. Target −16 °C
+  (band −18 to −14 °C) instead.
 
 ## 3. How to build a recipe (procedure)
 
