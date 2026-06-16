@@ -134,4 +134,4 @@ const TARGETS = {
   }
 };
 
-window.Calc = { INGREDIENTS, analyze, freezingCurve, TARGETS, fpFromSE };
+window.Calc = { INGREDIENTS, analyze, freezingCurve, TARGETS, fpFromSE, SERVING_ICE_FRACTION };
