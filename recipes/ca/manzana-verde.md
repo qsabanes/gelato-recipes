@@ -7,8 +7,8 @@
 | **Poma verda (Granny Smith)** | **400g** | *Pes pelada i sense cor.* Base aromàtica. |
 | **Aigua mineral** | **140g** | Solvent per al xarop. |
 | **Suc de llimona** | **40g** | Dosi alta; frena l'oxidació i aporta acidesa. |
-| **Sacarosa** | **40g** | Quantitat baixa; només suport estructural. |
-| **Dextrosa** | **125g** | Dosi alta (PAC molt alt); manté el sorbet tou a -18 °C gairebé sense dolçor. |
+| **Sacarosa** | **94g** | Dolçor i sòlids; equilibra l'acidesa de la poma. |
+| **Dextrosa** | **37g** | Aporta PAC per a una textura cullerejable a -18 °C. |
 | **Inulina** | **50g** | Vital: imita la textura del greix i evita que sigui un granissat. |
 | **Sal fina** | **1g** | Realça el sabor verd de la poma. |
 | **Goma guar** | **2.5g** | Mitja culleradeta plena; els sorbets necessiten més estabilitzant. |
@@ -50,4 +50,4 @@ Perquè la poma sàpiga a fruita verda i no a poma rostida, separem la part cale
 ## Registre de versions
 
 - **v1.0** — Excés de sabor cítric per la llimona.
-- **Pegat per a la v2.0** — Canviar la llimona per 3 g d'àcid màlic.
+- **v2.0** — Dextrosa 125→37 g i sacarosa 40→94 g, perquè qualli bé en congelador domèstic (-18 °C). Pendent de provar: canviar la llimona per 3 g d'àcid màlic per suavitzar el cítric.

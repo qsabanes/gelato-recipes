@@ -6,8 +6,8 @@
 | :---- | :---- | :---- |
 | **Pulpa de Mango** | **350g** | Pelado, triturado y colado (sin hilos). |
 | **Agua Mineral** | **245g** | Solvente de la matriz. |
-| **Sacarosa** | **60g** | Dosis baja; el mango maduro ya viene dulce. |
-| **Dextrosa** | **95g** | PAC alto para que sea cuchareable. |
+| **Sacarosa** | **78g** | Dosis baja; el mango maduro ya viene dulce. |
+| **Dextrosa** | **53g** | PAC alto para que sea cuchareable. |
 | **Inulina** | **20g** | Sólidos que imitan la sensación grasa. |
 | **Zumo de Limón** | **30g** | Regula el pH; evita oxidación y resalta el sabor. |
 | **Goma Guar** | **0.4g** | Una pizca; la pectina del mango hace el resto. |
@@ -30,3 +30,4 @@
 ## Registro de versiones
 
 - **v1.0** — *Notas de cata pendientes.*
+- **v2.0** — Dextrosa 95→53 g y sacarosa 60→78 g, para que cuaje bien en congelador doméstico (-18 °C).

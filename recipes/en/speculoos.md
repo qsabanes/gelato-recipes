@@ -6,8 +6,8 @@
 | :---- | :---- | :---- |
 | **Whole milk** | **450g** | Continuous liquid base. |
 | **Brown sugar (muscovado)** | **70g** | Provides the molasses and the dark colour. |
-| **Sucrose** | **40g** | Only to melt and make the base caramel. |
-| **Dextrose** | **85g** | Antifreeze (PAC). |
+| **Sucrose** | **25g** | Only to melt and make the base caramel. |
+| **Dextrose** | **41g** | Antifreeze (PAC). |
 | **Skimmed milk powder** | **25g** | MSNF: proteins that hold the air. |
 | **Inulin** | **15g** | Fibre to give body. |
 | **Fine salt** | **1.5g** | A salty counterpoint that enhances the caramel. |
@@ -64,3 +64,4 @@ Mix them separately to have them ready:
 ## Version log
 
 - **v1.0** — *Tasting notes pending.*
+- **v2.0** — Dextrose 85→41 g and sucrose 40→25 g, so it sets well in a home freezer (-18 °C).

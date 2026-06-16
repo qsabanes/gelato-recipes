@@ -10,8 +10,8 @@ Sabor de xocolata negra directe, sense tauleta, partint només de cacau en pols.
 | **Nata (35% MG)** | **90g** | El cacau en pols aporta poc greix, així que apugem la nata. |
 | **Cacau pur en pols** | **65g** | Dosi alta. El protagonista del lot. |
 | **Llet desnatada en pols** | **30g** | SNGL per retenir l'aire. |
-| **Sacarosa** | **90g** | Ajustada: el cacau en pols és molt amarg. |
-| **Dextrosa** | **90g** | PAC estable; manté els cristalls de gel sota control. |
+| **Sacarosa** | **60g** | Ajustada: el cacau en pols és molt amarg. |
+| **Dextrosa** | **58g** | PAC estable; manté els cristalls de gel sota control. |
 | **Inulina** | **15g** | Cos i textura fina. |
 | **Sal fina** | **1g** | Potencia l'amargor positiu del cacau. |
 | **Goma guar** | **0.5g** | 1/4 de culleradeta. |
@@ -27,3 +27,4 @@ Barreja totes les pols (inclòs el cacau) i afegeix-les a la llet i la nata a **
 ## Registre de versions
 
 - **v1.0** — *Notes de tast pendents.*
+- **v2.0** — Dextrosa 90→58 g i sacarosa 90→60 g, perquè qualli bé en congelador domèstic (-18 °C).

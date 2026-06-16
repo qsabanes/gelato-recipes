@@ -8,8 +8,8 @@
 | **Pure pistachio paste** | **100g** | The star: flavour, colour and unsaturated fats. |
 | **Cream (35% fat)** | **90g** | Reduced; the pistachio already brings fat. |
 | **Skimmed milk powder** | **30g** | MSNF: proteins to retain the air. |
-| **Sucrose** | **65g** | Base sweetness. |
-| **Dextrose** | **83g** | High PAC; keeps the gelato soft at -18 °C without being cloying. |
+| **Sucrose** | **43g** | Base sweetness. |
+| **Dextrose** | **47g** | High PAC; keeps the gelato soft at -18 °C without being cloying. |
 | **Inulin** | **25g** | Clean solids that improve viscosity and creaminess. |
 | **Fine salt** | **1.5g** | Brings out the nut flavour. |
 | **Guar gum** | **0.5g** | 1/4 teaspoon. Prevents a gummy texture. |
@@ -52,3 +52,4 @@ The challenge with pistachio is blending the nut's oil with the water in the mil
 ## Version log
 
 - **v1.0** — *Tasting notes pending.*
+- **v2.0** — Dextrose 83→47 g and sucrose 65→43 g, so it sets well in a home freezer (-18 °C).

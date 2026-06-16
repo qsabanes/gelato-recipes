@@ -7,8 +7,8 @@
 | **Leche Entera** | **440g** | Base de la fase acuosa. |
 | **Nata (35% MG)** | **135g** | Grasa láctea para una base blanca (~8% MG total). |
 | **Leche en Polvo** | **35g** | Aporta las proteínas que dan estructura. |
-| **Sacarosa** | **70g** | Dulzor reducido para que resalte la especia. |
-| **Dextrosa** | **75g** | PAC alto: suavidad por descenso crioscópico, no por goma. |
+| **Sacarosa** | **45g** | Dulzor reducido para que resalte la especia. |
+| **Dextrosa** | **65g** | PAC alto: suavidad por descenso crioscópico, no por goma. |
 | **Inulina** | **15g** | Sólidos para dar cuerpo. |
 | **Goma Guar** | **0.5g** | 1/4 de cucharadita. Estabiliza sin dar textura gomosa. |
 | **Sal fina** | **1g** | Realza las notas de la corteza de canela. |
@@ -53,3 +53,4 @@ El objetivo es extraer el **cinamaldehído** de la canela evitando que las notas
 ## Registro de versiones
 
 - **v1.0** — *Notas de cata pendientes.*
+- **v2.0** — Dextrosa 75→65 g y sacarosa 70→45 g, para que cuaje bien en congelador doméstico (-18 °C).

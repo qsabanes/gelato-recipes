@@ -8,8 +8,8 @@
 | **Pasta pura de pistatxo** | **100g** | El protagonista: sabor, color i greixos insaturats. |
 | **Nata (35% MG)** | **90g** | Reduïda; el pistatxo ja aporta greix. |
 | **Llet desnatada en pols** | **30g** | SNGL: proteïnes per retenir l'aire. |
-| **Sacarosa** | **65g** | Dolçor base. |
-| **Dextrosa** | **83g** | PAC alt; manté el gelat tou a -18 °C sense embafar. |
+| **Sacarosa** | **43g** | Dolçor base. |
+| **Dextrosa** | **47g** | PAC alt; manté el gelat tou a -18 °C sense embafar. |
 | **Inulina** | **25g** | Sòlids nets que milloren viscositat i cremositat. |
 | **Sal fina** | **1.5g** | Realça el sabor del fruit sec. |
 | **Goma guar** | **0.5g** | 1/4 de culleradeta. Evita la textura gomosa. |
@@ -52,3 +52,4 @@ El repte del pistatxo és barrejar l'oli del fruit sec amb l'aigua de la llet. C
 ## Registre de versions
 
 - **v1.0** — *Notes de tast pendents.*
+- **v2.0** — Dextrosa 83→47 g i sacarosa 65→43 g, perquè qualli bé en congelador domèstic (-18 °C).

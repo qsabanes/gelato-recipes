@@ -8,8 +8,8 @@
 | **Pure hazelnut paste** | **90g** | Provides the flavour and the bulk of the lipids. |
 | **Cream (35% fat)** | **30g** | Minimal; just a touch of dairy fat. |
 | **Skimmed milk powder** | **30g** | MSNF: proteins that retain the air. |
-| **Sucrose** | **70g** | Balanced base sweetness. |
-| **Dextrose** | **85g** | High PAC; prevents large ice crystals. |
+| **Sucrose** | **54g** | Balanced base sweetness. |
+| **Dextrose** | **49g** | High PAC; prevents large ice crystals. |
 | **Inulin** | **23g** | Clean solids and body. |
 | **Fine salt** | **1.5g** | Wakes up the toasted notes of the nut. |
 | **Guar gum** | **0.5g** | 1/4 teaspoon. |
@@ -29,3 +29,4 @@
 ## Version log
 
 - **v1.0** — *Tasting notes pending.*
+- **v2.0** — Dextrose 85→49 g and sucrose 70→54 g, so it sets well in a home freezer (-18 °C).

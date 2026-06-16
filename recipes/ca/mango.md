@@ -6,8 +6,8 @@
 | :---- | :---- | :---- |
 | **Polpa de mango** | **350g** | Pelat, triturat i colat (sense fils). |
 | **Aigua mineral** | **245g** | Solvent de la matriu. |
-| **Sacarosa** | **60g** | Dosi baixa; el mango madur ja ve dolç. |
-| **Dextrosa** | **95g** | PAC alt perquè sigui cullerejable. |
+| **Sacarosa** | **78g** | Dosi baixa; el mango madur ja ve dolç. |
+| **Dextrosa** | **53g** | PAC alt perquè sigui cullerejable. |
 | **Inulina** | **20g** | Sòlids que imiten la sensació grassa. |
 | **Suc de llimona** | **30g** | Regula el pH; evita oxidació i ressalta el sabor. |
 | **Goma guar** | **0.4g** | Un pessic; la pectina del mango fa la resta. |
@@ -30,3 +30,4 @@
 ## Registre de versions
 
 - **v1.0** — *Notes de tast pendents.*
+- **v2.0** — Dextrosa 95→53 g i sacarosa 60→78 g, perquè qualli bé en congelador domèstic (-18 °C).

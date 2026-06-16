@@ -7,8 +7,8 @@
 | **Manzana Verde (Granny Smith)** | **400g** | *Peso pelada y descorazonada.* Base aromática. |
 | **Agua Mineral** | **140g** | Solvente para el sirope. |
 | **Zumo de Limón** | **40g** | Dosis alta; frena la oxidación y aporta acidez. |
-| **Sacarosa** | **40g** | Cantidad baja; solo soporte estructural. |
-| **Dextrosa** | **125g** | Dosis alta (PAC muy alto); mantiene el sorbete blando a -18 °C sin apenas dulzor. |
+| **Sacarosa** | **94g** | Dulzor y sólidos; equilibra la acidez de la manzana. |
+| **Dextrosa** | **37g** | Aporta PAC para una textura cuchareable a -18 °C. |
 | **Inulina** | **50g** | Vital: imita la textura de la grasa y evita que sea un granizado. |
 | **Sal fina** | **1g** | Realza el sabor verde de la manzana. |
 | **Goma Guar** | **2.5g** | Media cucharadita colmada; los sorbetes necesitan más estabilizante. |
@@ -50,4 +50,4 @@ Para que la manzana sepa a fruta verde y no a manzana asada, separamos la parte 
 ## Registro de versiones
 
 - **v1.0** — Exceso de sabor cítrico por el limón.
-- **Parche para la v2.0** — Cambiar el limón por 3 g de ácido málico.
+- **v2.0** — Dextrosa 125→37 g y sacarosa 40→94 g, para que cuaje bien en congelador doméstico (-18 °C). Pendiente de probar: cambiar el limón por 3 g de ácido málico para suavizar el cítrico.

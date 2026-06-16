@@ -6,8 +6,8 @@
 | :---- | :---- | :---- |
 | **Mango pulp** | **350g** | Peeled, blended and strained (no strings). |
 | **Still water** | **245g** | Solvent for the matrix. |
-| **Sucrose** | **60g** | Low dose; ripe mango is already sweet. |
-| **Dextrose** | **95g** | High PAC so it's scoopable. |
+| **Sucrose** | **78g** | Low dose; ripe mango is already sweet. |
+| **Dextrose** | **53g** | High PAC so it's scoopable. |
 | **Inulin** | **20g** | Solids that mimic the fatty sensation. |
 | **Lemon juice** | **30g** | Regulates the pH; prevents oxidation and highlights the flavour. |
 | **Guar gum** | **0.4g** | A pinch; the mango's pectin does the rest. |
@@ -30,3 +30,4 @@
 ## Version log
 
 - **v1.0** — *Tasting notes pending.*
+- **v2.0** — Dextrose 95→53 g and sucrose 60→78 g, so it sets well in a home freezer (-18 °C).

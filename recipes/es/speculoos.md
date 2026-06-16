@@ -7,8 +7,8 @@
 | **Leche Entera** | **450g** | Base líquida continua. |
 | **Nata (35% MG)** | **130g** | La grasa noble del lote. |
 | **Azúcar Moreno / Moscabado** | **70g** | Aporta la melaza y el color oscuro. |
-| **Sacarosa** | **40g** | Solo para fundir y hacer el caramelo base. |
-| **Dextrosa** | **85g** | Anticongelante (PAC). |
+| **Sacarosa** | **25g** | Solo para fundir y hacer el caramelo base. |
+| **Dextrosa** | **41g** | Anticongelante (PAC). |
 | **Leche desnatada en polvo** | **25g** | SNGL: proteínas que sostienen el aire. |
 | **Inulina** | **15g** | Fibra para dar cuerpo. |
 | **Sal fina** | **1.5g** | Contrapunto salado que realza el caramelo. |
@@ -64,3 +64,4 @@ Mézclalas aparte para tenerlas listas:
 ## Registro de versiones
 
 - **v1.0** — *Notas de cata pendientes.*
+- **v2.0** — Dextrosa 85→41 g y sacarosa 40→25 g, para que cuaje bien en congelador doméstico (-18 °C).

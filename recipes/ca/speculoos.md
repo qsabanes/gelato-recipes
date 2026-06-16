@@ -7,8 +7,8 @@
 | **Llet sencera** | **450g** | Base líquida contínua. |
 | **Nata (35% MG)** | **130g** | El greix noble del lot. |
 | **Sucre morè / moscovat** | **70g** | Aporta la melassa i el color fosc. |
-| **Sacarosa** | **40g** | Només per fondre i fer el caramel base. |
-| **Dextrosa** | **85g** | Anticongelant (PAC). |
+| **Sacarosa** | **25g** | Només per fondre i fer el caramel base. |
+| **Dextrosa** | **41g** | Anticongelant (PAC). |
 | **Llet desnatada en pols** | **25g** | SNGL: proteïnes que sostenen l'aire. |
 | **Inulina** | **15g** | Fibra per donar cos. |
 | **Sal fina** | **1.5g** | Contrapunt salat que realça el caramel. |
@@ -64,3 +64,4 @@ Barreja-les a part per tenir-les a punt:
 ## Registre de versions
 
 - **v1.0** — *Notes de tast pendents.*
+- **v2.0** — Dextrosa 85→41 g i sacarosa 40→25 g, perquè qualli bé en congelador domèstic (-18 °C).

@@ -7,8 +7,8 @@
 | **Green apple (Granny Smith)** | **400g** | *Weight peeled and cored.* Aromatic base. |
 | **Still water** | **140g** | Solvent for the syrup. |
 | **Lemon juice** | **40g** | High dose; slows oxidation and adds acidity. |
-| **Sucrose** | **40g** | Low amount; structural support only. |
-| **Dextrose** | **125g** | High dose (very high PAC); keeps the sorbet soft at -18 °C with barely any sweetness. |
+| **Sucrose** | **94g** | Sweetness and solids; balances the apple's acidity. |
+| **Dextrose** | **37g** | Provides PAC for a scoopable texture at -18 °C. |
 | **Inulin** | **50g** | Vital: mimics the texture of fat and stops it being a granita. |
 | **Fine salt** | **1g** | Brings out the green flavour of the apple. |
 | **Guar gum** | **2.5g** | A heaped half teaspoon; sorbets need more stabiliser. |
@@ -50,4 +50,4 @@ So the apple tastes of green fruit and not of baked apple, we separate the hot p
 ## Version log
 
 - **v1.0** — Excess citrus flavour from the lemon.
-- **Patch for v2.0** — Replace the lemon with 3 g of malic acid.
+- **v2.0** — Dextrose 125→37 g and sucrose 40→94 g, so it sets well in a home freezer (-18 °C). Still to try: replace the lemon with 3 g of malic acid to soften the citrus.

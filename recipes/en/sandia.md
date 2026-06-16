@@ -5,8 +5,8 @@
 | Ingredient | Quantity (g) | Notes |
 | :---- | :---- | :---- |
 | **Juiced watermelon juice** | **530g** | Total liquid base. No added water. |
-| **Sucrose** | **50g** | Base sweetness. |
-| **Dextrose** | **90g** | High PAC; stops the watermelon's 92% water from turning into an ice block. |
+| **Sucrose** | **80g** | Base sweetness. |
+| **Dextrose** | **45g** | High PAC; stops the watermelon's 92% water from turning into an ice block. |
 | **Inulin** | **30g** | High dose of dry solids to give body. |
 | **Lemon juice** | **20g** | Boosts the flavour and maintains the pH. |
 | **Guar gum** | **0.6g** | 1/4 teaspoon. Traps the fruit's free water. |
@@ -29,3 +29,4 @@ To avoid heating all the watermelon and spoiling its flavour, we use an interfac
 ## Version log
 
 - **v1.0** — *Tasting notes pending.*
+- **v2.0** — Dextrose 90→45 g and sucrose 50→80 g, so it sets well in a home freezer (-18 °C).

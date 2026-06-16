@@ -5,8 +5,8 @@
 | Ingredient | Quantitat (g) | Notes |
 | :---- | :---- | :---- |
 | **Suc de síndria liquat** | **530g** | Base líquida total. Sense aigua afegida. |
-| **Sacarosa** | **50g** | Dolçor base. |
-| **Dextrosa** | **90g** | PAC alt; evita que el 92% d'aigua de la síndria es torni un bloc de gel. |
+| **Sacarosa** | **80g** | Dolçor base. |
+| **Dextrosa** | **45g** | PAC alt; evita que el 92% d'aigua de la síndria es torni un bloc de gel. |
 | **Inulina** | **30g** | Dosi alta de sòlids secs per donar cos. |
 | **Suc de llimona** | **20g** | Potencia el sabor i manté el pH. |
 | **Goma guar** | **0.6g** | 1/4 de culleradeta. Atrapa l'aigua lliure de la fruita. |
@@ -29,3 +29,4 @@ Per no escalfar tota la síndria i no espatllar-ne el sabor, fem servir una tèc
 ## Registre de versions
 
 - **v1.0** — *Notes de tast pendents.*
+- **v2.0** — Dextrosa 90→45 g i sacarosa 50→80 g, perquè qualli bé en congelador domèstic (-18 °C).

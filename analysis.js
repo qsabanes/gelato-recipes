@@ -12,7 +12,7 @@ const A_LABELS = {
     freezeTitle: 'Punto de congelación', freezeDesc: 'Tu helado empezará a congelarse a esta temperatura.',
     curveTitle: 'Curva de congelación',
     curveDesc: 'Aproxima la dureza del helado a distintas temperaturas. Al bajar la temperatura se forma hielo, la fase líquida se concentra y el punto de congelación baja más (de ahí la curva).',
-    curveX: 'Dureza →', curveBand: 'Rango de servicio (-16 a -12 °C)', curveFreezer: 'Congelador típico (-18 °C)',
+    curveX: 'Dureza →', curveBand: 'Rango de servicio en casa (-18 a -14 °C)', curveFreezer: 'Congelador doméstico (-18 °C)',
     nutrTitle: 'Información nutricional (por 100 g)',
     nKcal: 'Energía', nFat: 'Grasas', nCarb: 'Hidratos de carbono', nSugar: 'de los cuales azúcares', nProtein: 'Proteínas',
     metrics: { servingTemp: 'Temperatura de servicio', sweetness: 'Dulzor relativo', totalSolids: 'Sólidos totales', totalFat: 'Grasa total', milkFat: 'Grasa láctea', sugars: 'Azúcares', msnf: 'MSNF (sólidos lácteos)', stabilizers: 'Estabilizantes', alcohol: 'Alcohol' }
@@ -28,7 +28,7 @@ const A_LABELS = {
     freezeTitle: 'Punt de congelació', freezeDesc: 'El gelat començarà a congelar-se a aquesta temperatura.',
     curveTitle: 'Corba de congelació',
     curveDesc: "Aproxima la duresa del gelat a diferents temperatures. En baixar la temperatura es forma gel, la fase líquida es concentra i el punt de congelació baixa més (d'aquí la corba).",
-    curveX: 'Duresa →', curveBand: 'Rang de servei (-16 a -12 °C)', curveFreezer: 'Congelador típic (-18 °C)',
+    curveX: 'Duresa →', curveBand: 'Rang de servei a casa (-18 a -14 °C)', curveFreezer: 'Congelador domèstic (-18 °C)',
     nutrTitle: 'Informació nutricional (per 100 g)',
     nKcal: 'Energia', nFat: 'Greixos', nCarb: 'Hidrats de carboni', nSugar: 'dels quals sucres', nProtein: 'Proteïnes',
     metrics: { servingTemp: 'Temperatura de servei', sweetness: 'Dolçor relativa', totalSolids: 'Sòlids totals', totalFat: 'Greix total', milkFat: 'Greix lacti', sugars: 'Sucres', msnf: 'MSNF (sòlids lactis)', stabilizers: 'Estabilitzants', alcohol: 'Alcohol' }
@@ -44,7 +44,7 @@ const A_LABELS = {
     freezeTitle: 'Freezing point', freezeDesc: 'Your ice cream will begin to freeze at this temperature.',
     curveTitle: 'Freezing curve',
     curveDesc: 'Approximates the hardness of the ice cream at different temperatures. As it cools, ice forms, the liquid phase concentrates and the freezing point drops further (hence the curve).',
-    curveX: 'Hardness →', curveBand: 'Serving range (-16 to -12 °C)', curveFreezer: 'Typical freezer (-18 °C)',
+    curveX: 'Hardness →', curveBand: 'Home serving range (-18 to -14 °C)', curveFreezer: 'Home freezer (-18 °C)',
     nutrTitle: 'Nutrition (per 100 g)',
     nKcal: 'Energy', nFat: 'Fat', nCarb: 'Carbohydrate', nSugar: 'of which sugars', nProtein: 'Protein',
     metrics: { servingTemp: 'Serving temperature', sweetness: 'Relative sweetness', totalSolids: 'Total solids', totalFat: 'Total fat', milkFat: 'Milk fat', sugars: 'Sugars', msnf: 'MSNF (milk solids)', stabilizers: 'Stabilizers', alcohol: 'Alcohol' }
@@ -95,7 +95,7 @@ function buildGauge(L, servingTemp) {
   const [nx, ny] = pt(t2a(Math.max(-20, Math.min(-8, servingTemp))), r - 14);
   let s = '<svg viewBox="0 0 240 150" class="gauge">';
   s += '<path d="' + arc(-20, -8, r) + '" fill="none" stroke="var(--border)" stroke-width="12" stroke-linecap="round"/>';
-  s += '<path d="' + arc(-16, -12, r) + '" fill="none" stroke="var(--ok)" stroke-width="12" stroke-linecap="round"/>';
+  s += '<path d="' + arc(-18, -14, r) + '" fill="none" stroke="var(--ok)" stroke-width="12" stroke-linecap="round"/>';
   [['-20', -20], ['-16', -16], ['-14', -14], ['-12', -12], ['-8', -8]].forEach(([lab, t]) => {
     const [lx, ly] = pt(t2a(t), r + 16);
     s += '<text x="' + lx.toFixed(0) + '" y="' + ly.toFixed(0) + '" class="g-tick">' + lab + '</text>';
@@ -114,7 +114,7 @@ function buildCurve(L, fpdf) {
   const { points } = Calc.freezingCurve(fpdf, tMin);
   const line = points.filter(p => p.t >= tMin).map(p => x(p.ice).toFixed(1) + ',' + y(p.t).toFixed(1)).join(' ');
   let s = '<svg viewBox="0 0 ' + W + ' ' + H + '" class="curve">';
-  s += '<rect x="' + ml + '" y="' + y(-12).toFixed(1) + '" width="' + pw + '" height="' + (y(-16) - y(-12)).toFixed(1) + '" fill="var(--accent-soft)"/>';
+  s += '<rect x="' + ml + '" y="' + y(-14).toFixed(1) + '" width="' + pw + '" height="' + (y(-18) - y(-14)).toFixed(1) + '" fill="var(--accent-soft)"/>';
   [0, -5, -10, -15, -20].forEach(t => {
     s += '<line x1="' + ml + '" y1="' + y(t).toFixed(1) + '" x2="' + (W - mr) + '" y2="' + y(t).toFixed(1) + '" stroke="var(--border)" stroke-width="1"/>';
     s += '<text x="' + (ml - 6) + '" y="' + (y(t) + 3).toFixed(1) + '" class="c-tick">' + t + ' °C</text>';

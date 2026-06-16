@@ -7,8 +7,8 @@
 | **Whole milk** | **440g** | Base of the water phase. |
 | **Cream (35% fat)** | **135g** | Dairy fat for a white base (~8% total fat). |
 | **Skimmed milk powder** | **35g** | Provides the proteins that give structure. |
-| **Sucrose** | **70g** | Reduced sweetness so the spice stands out. |
-| **Dextrose** | **75g** | High PAC: softness through freezing-point depression, not gum. |
+| **Sucrose** | **45g** | Reduced sweetness so the spice stands out. |
+| **Dextrose** | **65g** | High PAC: softness through freezing-point depression, not gum. |
 | **Inulin** | **15g** | Solids for body. |
 | **Guar gum** | **0.5g** | 1/4 teaspoon. Stabilises without a gummy texture. |
 | **Fine salt** | **1g** | Lifts the notes of the cinnamon bark. |
@@ -53,3 +53,4 @@ The goal is to extract the **cinnamaldehyde** from the cinnamon while stopping t
 ## Version log
 
 - **v1.0** — *Tasting notes pending.*
+- **v2.0** — Dextrose 75→65 g and sucrose 70→45 g, so it sets well in a home freezer (-18 °C).

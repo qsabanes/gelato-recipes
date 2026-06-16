@@ -7,8 +7,8 @@
 | **Llet sencera** | **440g** | Base de la fase aquosa. |
 | **Nata (35% MG)** | **135g** | Greix lacti per a una base blanca (~8% MG total). |
 | **Llet en pols** | **35g** | Aporta les proteïnes que donen estructura. |
-| **Sacarosa** | **70g** | Dolçor reduïda perquè ressalti l'espècia. |
-| **Dextrosa** | **75g** | PAC alt: suavitat per descens crioscòpic, no per goma. |
+| **Sacarosa** | **45g** | Dolçor reduïda perquè ressalti l'espècia. |
+| **Dextrosa** | **65g** | PAC alt: suavitat per descens crioscòpic, no per goma. |
 | **Inulina** | **15g** | Sòlids per donar cos. |
 | **Goma guar** | **0.5g** | 1/4 de culleradeta. Estabilitza sense donar textura gomosa. |
 | **Sal fina** | **1g** | Ressalta les notes de l'escorça de canyella. |
@@ -53,3 +53,4 @@ L'objectiu és extreure el **cinemaldehid** de la canyella evitant que les notes
 ## Registre de versions
 
 - **v1.0** — *Notes de tast pendents.*
+- **v2.0** — Dextrosa 75→65 g i sacarosa 70→45 g, perquè qualli bé en congelador domèstic (-18 °C).

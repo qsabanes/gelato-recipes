@@ -8,8 +8,8 @@
 | **Pasta pura d'avellana** | **90g** | Aporta el sabor i el gruix dels lípids. |
 | **Nata (35% MG)** | **30g** | Mínima; només un toc de greix lacti. |
 | **Llet desnatada en pols** | **30g** | SNGL: proteïnes que retenen l'aire. |
-| **Sacarosa** | **70g** | Dolçor base equilibrada. |
-| **Dextrosa** | **85g** | PAC alt; evita macrocristalls de gel. |
+| **Sacarosa** | **54g** | Dolçor base equilibrada. |
+| **Dextrosa** | **49g** | PAC alt; evita macrocristalls de gel. |
 | **Inulina** | **23g** | Sòlids nets i cos. |
 | **Sal fina** | **1.5g** | Desperta les notes torrades del fruit sec. |
 | **Goma guar** | **0.5g** | 1/4 de culleradeta. |
@@ -29,3 +29,4 @@
 ## Registre de versions
 
 - **v1.0** — *Notes de tast pendents.*
+- **v2.0** — Dextrosa 85→49 g i sacarosa 70→54 g, perquè qualli bé en congelador domèstic (-18 °C).

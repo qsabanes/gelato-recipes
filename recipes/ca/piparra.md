@@ -8,8 +8,8 @@
 | **Piparres en vinagre** | **120g** | Sense cua. Aroma verd i vegetal. |
 | **Brou de la piparra** | **20g** | Un raig del vinagre del pot; acidesa i aroma. |
 | **AOVE** | **30g** | Un micropercentatge de greix; millora el tall (efecte Gilda). |
-| **Sacarosa** | **20g** | Gairebé nul·la; només ajuda a la textura. |
-| **Dextrosa** | **130g** | Dosi alta de PAC: en ser tot aigua i vinagre, evita que es faci un glaçó, amb baixa dolçor. |
+| **Sacarosa** | **32g** | Gairebé nul·la; només ajuda a la textura. |
+| **Dextrosa** | **106g** | Dosi alta de PAC: en ser tot aigua i vinagre, evita que es faci un glaçó, amb baixa dolçor. |
 | **Inulina** | **40g** | Dosi alta; dóna sensació de cos en no haver-hi lactis. |
 | **Sal fina** | **3g** | Fonamental per al perfil salat. |
 | **Goma guar** | **1g** | Mitja culleradeta (l'aigua cristal·litza pitjor que la llet). |
@@ -41,3 +41,4 @@
 ## Registre de versions
 
 - **v1.0** — *Notes de tast pendents.*
+- **v2.0** — Dextrosa 130→106 g i sacarosa 20→32 g, perquè qualli bé en congelador domèstic (-18 °C).

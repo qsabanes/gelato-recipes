@@ -8,8 +8,8 @@
 | **Pickled piparra peppers** | **120g** | Stems removed. Green, vegetal aroma. |
 | **Piparra brine** | **20g** | A splash of the jar's vinegar; acidity and aroma. |
 | **Extra-virgin olive oil** | **30g** | A micro-percentage of fat; improves the cut (Gilda effect). |
-| **Sucrose** | **20g** | Almost none; only helps the texture. |
-| **Dextrose** | **130g** | High dose of PAC: since it's all water and vinegar, it stops it becoming an ice cube, with low sweetness. |
+| **Sucrose** | **32g** | Almost none; only helps the texture. |
+| **Dextrose** | **106g** | High dose of PAC: since it's all water and vinegar, it stops it becoming an ice cube, with low sweetness. |
 | **Inulin** | **40g** | High dose; gives a sensation of body in the absence of dairy. |
 | **Fine salt** | **3g** | Essential for the savoury profile. |
 | **Guar gum** | **1g** | Half a teaspoon (water crystallises worse than milk). |
@@ -41,3 +41,4 @@
 ## Version log
 
 - **v1.0** — *Tasting notes pending.*
+- **v2.0** — Dextrose 130→106 g and sucrose 20→32 g, so it sets well in a home freezer (-18 °C).

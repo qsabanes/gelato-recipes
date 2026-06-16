@@ -5,8 +5,8 @@
 | Ingrediente | Cantidad (g) | Notas |
 | :---- | :---- | :---- |
 | **Zumo de Sandía licuado** | **530g** | Base líquida total. Sin agua añadida. |
-| **Sacarosa** | **50g** | Dulzor base. |
-| **Dextrosa** | **90g** | PAC alto; evita que el 92% de agua de la sandía se vuelva un témpano. |
+| **Sacarosa** | **80g** | Dulzor base. |
+| **Dextrosa** | **45g** | PAC alto; evita que el 92% de agua de la sandía se vuelva un témpano. |
 | **Inulina** | **30g** | Dosis alta de sólidos secos para dar cuerpo. |
 | **Zumo de Limón** | **20g** | Potencia el sabor y mantiene el pH. |
 | **Goma Guar** | **0.6g** | 1/4 de cucharadita. Atrapa el agua libre de la fruta. |
@@ -29,3 +29,4 @@ Para no calentar toda la sandía y no estropear su sabor, usamos una técnica de
 ## Registro de versiones
 
 - **v1.0** — *Notas de cata pendientes.*
+- **v2.0** — Dextrosa 90→45 g y sacarosa 50→80 g, para que cuaje bien en congelador doméstico (-18 °C).

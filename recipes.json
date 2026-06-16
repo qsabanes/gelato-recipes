@@ -2,7 +2,7 @@
   { "file": "canela.md", "category": "gelato",
     "ingredients": [
       { "k": "whole_milk", "g": 440 }, { "k": "cream35", "g": 135 }, { "k": "smp", "g": 35 },
-      { "k": "sucrose", "g": 70 }, { "k": "dextrose", "g": 75 }, { "k": "inulin", "g": 15 },
+      { "k": "sucrose", "g": 45 }, { "k": "dextrose", "g": 65 }, { "k": "inulin", "g": 15 },
       { "k": "guar", "g": 0.5 }, { "k": "salt", "g": 1 }, { "k": "cinnamon_powder", "g": 5 }
     ],
     "es": { "title": "Gelato de Canela", "tags": ["especias", "clásico"] },
@@ -22,7 +22,7 @@
   { "file": "chocolate.md", "category": "gelato",
     "ingredients": [
       { "k": "whole_milk", "g": 470 }, { "k": "cream35", "g": 90 }, { "k": "cocoa_powder", "g": 65 },
-      { "k": "smp", "g": 30 }, { "k": "sucrose", "g": 90 }, { "k": "dextrose", "g": 90 },
+      { "k": "smp", "g": 30 }, { "k": "sucrose", "g": 60 }, { "k": "dextrose", "g": 58 },
       { "k": "inulin", "g": 15 }, { "k": "salt", "g": 1 }, { "k": "guar", "g": 0.5 }
     ],
     "es": { "title": "Gelato de Chocolate", "tags": ["chocolate"] },
@@ -32,7 +32,7 @@
   { "file": "pistacho.md", "category": "gelato",
     "ingredients": [
       { "k": "whole_milk", "g": 405 }, { "k": "pistachio_paste", "g": 100 }, { "k": "cream35", "g": 90 },
-      { "k": "smp", "g": 30 }, { "k": "sucrose", "g": 65 }, { "k": "dextrose", "g": 83 },
+      { "k": "smp", "g": 30 }, { "k": "sucrose", "g": 43 }, { "k": "dextrose", "g": 47 },
       { "k": "inulin", "g": 25 }, { "k": "salt", "g": 1.5 }, { "k": "guar", "g": 0.5 }
     ],
     "es": { "title": "Gelato de Pistacho", "tags": ["fruto seco"] },
@@ -42,7 +42,7 @@
   { "file": "avellana.md", "category": "gelato",
     "ingredients": [
       { "k": "whole_milk", "g": 470 }, { "k": "hazelnut_paste", "g": 90 }, { "k": "cream35", "g": 30 },
-      { "k": "smp", "g": 30 }, { "k": "sucrose", "g": 70 }, { "k": "dextrose", "g": 85 },
+      { "k": "smp", "g": 30 }, { "k": "sucrose", "g": 54 }, { "k": "dextrose", "g": 49 },
       { "k": "inulin", "g": 23 }, { "k": "salt", "g": 1.5 }, { "k": "guar", "g": 0.5 }
     ],
     "es": { "title": "Gelato de Avellana", "tags": ["fruto seco"] },
@@ -52,7 +52,7 @@
   { "file": "speculoos.md", "category": "gelato",
     "ingredients": [
       { "k": "whole_milk", "g": 450 }, { "k": "cream35", "g": 130 }, { "k": "brown_sugar", "g": 70 },
-      { "k": "sucrose", "g": 40 }, { "k": "dextrose", "g": 85 }, { "k": "smp", "g": 25 },
+      { "k": "sucrose", "g": 25 }, { "k": "dextrose", "g": 41 }, { "k": "smp", "g": 25 },
       { "k": "inulin", "g": 15 }, { "k": "salt", "g": 1.5 }, { "k": "guar", "g": 0.5 }, { "k": "cinnamon_powder", "g": 2 }
     ],
     "es": { "title": "Gelato de Speculoos", "tags": ["especias", "caramelo"] },
@@ -80,8 +80,8 @@
 
   { "file": "mango.md", "category": "sorbet",
     "ingredients": [
-      { "k": "mango_pulp", "g": 350 }, { "k": "water", "g": 245 }, { "k": "sucrose", "g": 60 },
-      { "k": "dextrose", "g": 95 }, { "k": "inulin", "g": 20 }, { "k": "lemon_juice", "g": 30 }, { "k": "guar", "g": 0.4 }
+      { "k": "mango_pulp", "g": 350 }, { "k": "water", "g": 245 }, { "k": "sucrose", "g": 78 },
+      { "k": "dextrose", "g": 53 }, { "k": "inulin", "g": 20 }, { "k": "lemon_juice", "g": 30 }, { "k": "guar", "g": 0.4 }
     ],
     "es": { "title": "Sorbete de Mango", "tags": ["fruta"] },
     "ca": { "title": "Sorbet de Mango", "tags": ["fruita"] },
@@ -89,7 +89,7 @@
 
   { "file": "sandia.md", "category": "sorbet",
     "ingredients": [
-      { "k": "watermelon_juice", "g": 530 }, { "k": "sucrose", "g": 50 }, { "k": "dextrose", "g": 90 },
+      { "k": "watermelon_juice", "g": 530 }, { "k": "sucrose", "g": 80 }, { "k": "dextrose", "g": 45 },
       { "k": "inulin", "g": 30 }, { "k": "lemon_juice", "g": 20 }, { "k": "guar", "g": 0.6 }
     ],
     "es": { "title": "Sorbete de Sandía", "tags": ["fruta"] },
@@ -99,7 +99,7 @@
   { "file": "manzana-verde.md", "category": "sorbet",
     "ingredients": [
       { "k": "green_apple", "g": 400 }, { "k": "water", "g": 140 }, { "k": "lemon_juice", "g": 40 },
-      { "k": "sucrose", "g": 40 }, { "k": "dextrose", "g": 125 }, { "k": "inulin", "g": 50 },
+      { "k": "sucrose", "g": 94 }, { "k": "dextrose", "g": 37 }, { "k": "inulin", "g": 50 },
       { "k": "salt", "g": 1 }, { "k": "guar", "g": 2.5 }
     ],
     "es": { "title": "Sorbete de Manzana Verde", "tags": ["fruta", "ácido"] },
@@ -109,7 +109,7 @@
   { "file": "piparra.md", "category": "sorbet",
     "ingredients": [
       { "k": "water", "g": 435 }, { "k": "piparra", "g": 120 }, { "k": "brine", "g": 20 },
-      { "k": "olive_oil", "g": 30 }, { "k": "sucrose", "g": 20 }, { "k": "dextrose", "g": 130 },
+      { "k": "olive_oil", "g": 30 }, { "k": "sucrose", "g": 32 }, { "k": "dextrose", "g": 106 },
       { "k": "inulin", "g": 40 }, { "k": "salt", "g": 3 }, { "k": "guar", "g": 1 }
     ],
     "es": { "title": "Sorbete de Piparra", "tags": ["gastronómico", "salado"] },

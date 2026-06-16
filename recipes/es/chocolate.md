@@ -10,8 +10,8 @@ Sabor a chocolate negro directo, sin tableta, partiendo solo de cacao en polvo.
 | **Nata (35% MG)** | **90g** | El cacao en polvo aporta poca grasa, así que subimos la nata. |
 | **Cacao Puro en Polvo** | **65g** | Dosis alta. El protagonista del lote. |
 | **Leche desnatada en polvo** | **30g** | SNGL para retener el aire. |
-| **Sacarosa** | **90g** | Ajustada: el cacao en polvo es muy amargo. |
-| **Dextrosa** | **90g** | PAC estable; mantiene los cristales de hielo bajo control. |
+| **Sacarosa** | **60g** | Ajustada: el cacao en polvo es muy amargo. |
+| **Dextrosa** | **58g** | PAC estable; mantiene los cristales de hielo bajo control. |
 | **Inulina** | **15g** | Cuerpo y textura fina. |
 | **Sal fina** | **1g** | Potencia el amargor positivo del cacao. |
 | **Goma Guar** | **0.5g** | 1/4 de cucharadita. |
@@ -27,3 +27,4 @@ Mezcla todos los polvos (incluido el cacao) y añádelos a la leche y la nata a 
 ## Registro de versiones
 
 - **v1.0** — *Notas de cata pendientes.*
+- **v2.0** — Dextrosa 90→58 g y sacarosa 90→60 g, para que cuaje bien en congelador doméstico (-18 °C).

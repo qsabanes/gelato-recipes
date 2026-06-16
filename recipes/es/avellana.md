@@ -8,8 +8,8 @@
 | **Pasta Pura de Avellana** | **90g** | Aporta el sabor y el grueso de los lípidos. |
 | **Nata (35% MG)** | **30g** | Mínima; solo un toque de grasa láctea. |
 | **Leche desnatada en polvo** | **30g** | SNGL: proteínas que retienen el aire. |
-| **Sacarosa** | **70g** | Dulzor base equilibrado. |
-| **Dextrosa** | **85g** | PAC alto; evita macrocristales de hielo. |
+| **Sacarosa** | **54g** | Dulzor base equilibrado. |
+| **Dextrosa** | **49g** | PAC alto; evita macrocristales de hielo. |
 | **Inulina** | **23g** | Sólidos limpios y cuerpo. |
 | **Sal fina** | **1.5g** | Despierta las notas tostadas del fruto seco. |
 | **Goma Guar** | **0.5g** | 1/4 de cucharadita. |
@@ -29,3 +29,4 @@
 ## Registro de versiones
 
 - **v1.0** — *Notas de cata pendientes.*
+- **v2.0** — Dextrosa 85→49 g y sacarosa 70→54 g, para que cuaje bien en congelador doméstico (-18 °C).

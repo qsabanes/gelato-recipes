@@ -8,8 +8,8 @@
 | **Piparras encurtidas** | **120g** | Sin rabo. Aroma verde y vegetal. |
 | **Caldo de la piparra** | **20g** | Un chorrito del vinagre del bote; acidez y aroma. |
 | **AOVE** | **30g** | Un micro-porcentaje de grasa; mejora el corte (efecto Gilda). |
-| **Sacarosa** | **20g** | Casi nula; solo ayuda a la textura. |
-| **Dextrosa** | **130g** | Dosis alta de PAC: al ser todo agua y vinagre, evita que se haga un cubito, con bajo dulzor. |
+| **Sacarosa** | **32g** | Casi nula; solo ayuda a la textura. |
+| **Dextrosa** | **106g** | Dosis alta de PAC: al ser todo agua y vinagre, evita que se haga un cubito, con bajo dulzor. |
 | **Inulina** | **40g** | Dosis alta; da sensación de cuerpo al no haber lácteos. |
 | **Sal fina** | **3g** | Fundamental para el perfil salado. |
 | **Goma Guar** | **1g** | Media cucharadita (el agua cristaliza peor que la leche). |
@@ -41,3 +41,4 @@
 ## Registro de versiones
 
 - **v1.0** — *Notas de cata pendientes.*
+- **v2.0** — Dextrosa 130→106 g y sacarosa 20→32 g, para que cuaje bien en congelador doméstico (-18 °C).

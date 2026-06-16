@@ -8,8 +8,8 @@
 | **Pasta Pura de Pistacho** | **100g** | El protagonista: sabor, color y grasas insaturadas. |
 | **Nata (35% MG)** | **90g** | Reducida; el pistacho ya aporta grasa. |
 | **Leche desnatada en polvo** | **30g** | SNGL: proteínas para retener el aire. |
-| **Sacarosa** | **65g** | Dulzor base. |
-| **Dextrosa** | **83g** | PAC alto; mantiene el helado blando a -18 °C sin empalagar. |
+| **Sacarosa** | **43g** | Dulzor base. |
+| **Dextrosa** | **47g** | PAC alto; mantiene el helado blando a -18 °C sin empalagar. |
 | **Inulina** | **25g** | Sólidos limpios que mejoran viscosidad y cremosidad. |
 | **Sal fina** | **1.5g** | Realza el sabor del fruto seco. |
 | **Goma Guar** | **0.5g** | 1/4 de cucharadita. Evita la textura gomosa. |
@@ -52,3 +52,4 @@ El reto del pistacho es mezclar el aceite del fruto seco con el agua de la leche
 ## Registro de versiones
 
 - **v1.0** — *Notas de cata pendientes.*
+- **v2.0** — Dextrosa 83→47 g y sacarosa 65→43 g, para que cuaje bien en congelador doméstico (-18 °C).
