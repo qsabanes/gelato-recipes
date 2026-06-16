@@ -121,17 +121,16 @@ function freezingCurve(fpdf, minTemp) {
 
 // Target ranges per category. [min,max] gets a check; null = informational only.
 const TARGETS = {
-  // Serving-temperature targets are tuned for a HOME freezer (~-18 °C):
-  // the ice cream should be scoopable straight from the freezer or after a brief rest.
+  // Serving temp targets tuned for home freezer (-18 °C). Other metrics from Scoopulator profiles.
   gelato: {
-    servingTemp: [-18, -14], sweetness: [11, 20], totalSolids: [35, 45],
-    totalFat: [10, 30], milkFat: [5, 18], sugars: null, msnf: [7, 15],
-    stabilizers: [0, 0.3], emulsifiers: null, alcohol: [0, 2]
+    servingTemp: [-18, -14], sweetness: [11, 20], totalSolids: [36, 43],
+    totalFat: null, milkFat: [4, 8], sugars: null, msnf: [11, 12],
+    stabilizers: [0.4, 0.6], emulsifiers: null, alcohol: null
   },
   sorbet: {
-    servingTemp: [-18, -14], sweetness: [22, 30], totalSolids: [26, 38],
-    totalFat: null, milkFat: null, sugars: null, msnf: null,
-    stabilizers: [0, 0.5], emulsifiers: null, alcohol: [0, 2]
+    servingTemp: [-18, -14], sweetness: [12, 25], totalSolids: [24, 42],
+    totalFat: [0, 2], milkFat: null, sugars: null, msnf: null,
+    stabilizers: [0.2, 0.5], emulsifiers: null, alcohol: null
   }
 };
 

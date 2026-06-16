@@ -12,7 +12,7 @@ const A_LABELS = {
     freezeTitle: 'Punto de congelación', freezeDesc: 'Tu helado empezará a congelarse a esta temperatura.',
     curveTitle: 'Curva de congelación',
     curveDesc: 'Aproxima la dureza del helado a distintas temperaturas. Al bajar la temperatura se forma hielo, la fase líquida se concentra y el punto de congelación baja más (de ahí la curva).',
-    curveX: 'Dureza →', curveBand: 'Rango de servicio en casa (-18 a -14 °C)', curveFreezer: 'Congelador doméstico (-18 °C)',
+    curveX: 'Dureza →', curveBand: 'Rango congelador doméstico', curveFreezer: 'Congelador doméstico (-18 °C)',
     nutrTitle: 'Información nutricional (por 100 g)',
     nKcal: 'Energía', nFat: 'Grasas', nCarb: 'Hidratos de carbono', nSugar: 'de los cuales azúcares', nProtein: 'Proteínas',
     metrics: { servingTemp: 'Temperatura de servicio', sweetness: 'Dulzor relativo', totalSolids: 'Sólidos totales', totalFat: 'Grasa total', milkFat: 'Grasa láctea', sugars: 'Azúcares', msnf: 'MSNF (sólidos lácteos)', stabilizers: 'Estabilizantes', alcohol: 'Alcohol' }
@@ -28,7 +28,7 @@ const A_LABELS = {
     freezeTitle: 'Punt de congelació', freezeDesc: 'El gelat començarà a congelar-se a aquesta temperatura.',
     curveTitle: 'Corba de congelació',
     curveDesc: "Aproxima la duresa del gelat a diferents temperatures. En baixar la temperatura es forma gel, la fase líquida es concentra i el punt de congelació baixa més (d'aquí la corba).",
-    curveX: 'Duresa →', curveBand: 'Rang de servei a casa (-18 a -14 °C)', curveFreezer: 'Congelador domèstic (-18 °C)',
+    curveX: 'Duresa →', curveBand: 'Rang congelador domèstic', curveFreezer: 'Congelador domèstic (-18 °C)',
     nutrTitle: 'Informació nutricional (per 100 g)',
     nKcal: 'Energia', nFat: 'Greixos', nCarb: 'Hidrats de carboni', nSugar: 'dels quals sucres', nProtein: 'Proteïnes',
     metrics: { servingTemp: 'Temperatura de servei', sweetness: 'Dolçor relativa', totalSolids: 'Sòlids totals', totalFat: 'Greix total', milkFat: 'Greix lacti', sugars: 'Sucres', msnf: 'MSNF (sòlids lactis)', stabilizers: 'Estabilitzants', alcohol: 'Alcohol' }
@@ -44,7 +44,7 @@ const A_LABELS = {
     freezeTitle: 'Freezing point', freezeDesc: 'Your ice cream will begin to freeze at this temperature.',
     curveTitle: 'Freezing curve',
     curveDesc: 'Approximates the hardness of the ice cream at different temperatures. As it cools, ice forms, the liquid phase concentrates and the freezing point drops further (hence the curve).',
-    curveX: 'Hardness →', curveBand: 'Home serving range (-18 to -14 °C)', curveFreezer: 'Home freezer (-18 °C)',
+    curveX: 'Hardness →', curveBand: 'Home freezer range', curveFreezer: 'Home freezer (-18 °C)',
     nutrTitle: 'Nutrition (per 100 g)',
     nKcal: 'Energy', nFat: 'Fat', nCarb: 'Carbohydrate', nSugar: 'of which sugars', nProtein: 'Protein',
     metrics: { servingTemp: 'Serving temperature', sweetness: 'Relative sweetness', totalSolids: 'Total solids', totalFat: 'Total fat', milkFat: 'Milk fat', sugars: 'Sugars', msnf: 'MSNF (milk solids)', stabilizers: 'Stabilizers', alcohol: 'Alcohol' }
@@ -70,7 +70,8 @@ function targetText(L, spec, range) {
   if (!range) return L.target + ': ' + L.na;
   if (spec.temp) return L.target + ': ' + fmt(range[0], 0) + ' a ' + fmt(range[1], 0) + ' °C';
   if (range[0] === 0) return L.target + ': ' + L.upTo + ' ' + fmt(range[1], range[1] < 1 ? 1 : 0) + ' %';
-  return L.target + ': ' + fmt(range[0], 0) + ' – ' + fmt(range[1], 0) + ' %';
+  const d = (range[0] < 1 || range[1] < 1) ? 1 : 0;
+  return L.target + ': ' + fmt(range[0], d) + ' – ' + fmt(range[1], d) + ' %';
 }
 function statusOf(value, range) { return !range ? 'info' : (value >= range[0] && value <= range[1] ? 'ok' : 'warn'); }
 const ICON = { ok: '✓', warn: '!', info: '' };
@@ -84,7 +85,7 @@ function metricCard(L, spec, a, targets) {
     + '<div class="m-target">' + targetText(L, spec, range) + '</div></div>';
 }
 
-function buildGauge(L, servingTemp) {
+function buildGauge(L, servingTemp, band) {
   const cx = 120, cy = 120, r = 96;
   const t2a = t => { const f = Math.max(0, Math.min(1, (t + 20) / 12)); return Math.PI - f * Math.PI; };
   const pt = (ang, rad) => [cx + rad * Math.cos(ang), cy - rad * Math.sin(ang)];
@@ -95,7 +96,7 @@ function buildGauge(L, servingTemp) {
   const [nx, ny] = pt(t2a(Math.max(-20, Math.min(-8, servingTemp))), r - 14);
   let s = '<svg viewBox="0 0 240 150" class="gauge">';
   s += '<path d="' + arc(-20, -8, r) + '" fill="none" stroke="var(--border)" stroke-width="12" stroke-linecap="round"/>';
-  s += '<path d="' + arc(-18, -14, r) + '" fill="none" stroke="var(--ok)" stroke-width="12" stroke-linecap="round"/>';
+  s += '<path d="' + arc(band[0], band[1], r) + '" fill="none" stroke="var(--ok)" stroke-width="12" stroke-linecap="round"/>';
   [['-20', -20], ['-16', -16], ['-14', -14], ['-12', -12], ['-8', -8]].forEach(([lab, t]) => {
     const [lx, ly] = pt(t2a(t), r + 16);
     s += '<text x="' + lx.toFixed(0) + '" y="' + ly.toFixed(0) + '" class="g-tick">' + lab + '</text>';
@@ -107,14 +108,14 @@ function buildGauge(L, servingTemp) {
   return s;
 }
 
-function buildCurve(L, fpdf) {
+function buildCurve(L, fpdf, band) {
   const W = 480, H = 250, ml = 46, mr = 14, mt = 14, mb = 28;
   const pw = W - ml - mr, ph = H - mt - mb, tMin = -20;
   const x = ice => ml + ice * pw, y = t => mt + (-t / -tMin) * ph;
   const { points } = Calc.freezingCurve(fpdf, tMin);
   const line = points.filter(p => p.t >= tMin).map(p => x(p.ice).toFixed(1) + ',' + y(p.t).toFixed(1)).join(' ');
   let s = '<svg viewBox="0 0 ' + W + ' ' + H + '" class="curve">';
-  s += '<rect x="' + ml + '" y="' + y(-14).toFixed(1) + '" width="' + pw + '" height="' + (y(-18) - y(-14)).toFixed(1) + '" fill="var(--accent-soft)"/>';
+  s += '<rect x="' + ml + '" y="' + y(band[1]).toFixed(1) + '" width="' + pw + '" height="' + (y(band[0]) - y(band[1])).toFixed(1) + '" fill="var(--accent-soft)"/>';
   [0, -5, -10, -15, -20].forEach(t => {
     s += '<line x1="' + ml + '" y1="' + y(t).toFixed(1) + '" x2="' + (W - mr) + '" y2="' + y(t).toFixed(1) + '" stroke="var(--border)" stroke-width="1"/>';
     s += '<text x="' + (ml - 6) + '" y="' + (y(t) + 3).toFixed(1) + '" class="c-tick">' + t + ' °C</text>';
@@ -131,11 +132,14 @@ function renderAnalysis(list, category, lang) {
   A_DS = lang === 'en' ? '.' : ',';
   const a = Calc.analyze(list);
   const targets = Calc.TARGETS[category] || Calc.TARGETS.gelato;
+  const band = targets.servingTemp;
+  const conn = lang === 'en' ? 'to' : 'a';
+  const bandLabel = L.curveBand + ' (' + fmt(band[0], 0) + ' ' + conn + ' ' + fmt(band[1], 0) + ' °C)';
   let h = '<h2 class="an-title">' + L.title + '</h2><p class="an-note">' + L.note + '</p>';
   h += '<div class="metrics">' + METRIC_SPECS.map(sp => metricCard(L, sp, a, targets)).join('') + '</div>';
 
   h += '<div class="an-row">';
-  h += '<div class="an-card"><h3>' + L.scoop + '</h3>' + buildGauge(L, a.servingTemp) + '</div>';
+  h += '<div class="an-card"><h3>' + L.scoop + '</h3>' + buildGauge(L, a.servingTemp, band) + '</div>';
   h += '<div class="an-card"><h3>' + L.fpdfTitle + '</h3><div class="big-num">' + fmt(a.pac, 0) + '</div><p class="an-sub">' + L.fpdfDesc + '</p></div>';
   h += '</div>';
 
@@ -145,8 +149,8 @@ function renderAnalysis(list, category, lang) {
   h += '</div>';
 
   h += '<div class="an-card wide"><h3>' + L.curveTitle + '</h3><p class="an-sub">' + L.curveDesc + '</p>'
-    + buildCurve(L, a.fpdf)
-    + '<div class="curve-legend"><span><i class="sw band"></i>' + L.curveBand + '</span><span><i class="sw frz"></i>' + L.curveFreezer + '</span></div></div>';
+    + buildCurve(L, a.fpdf, band)
+    + '<div class="curve-legend"><span><i class="sw band"></i>' + bandLabel + '</span><span><i class="sw frz"></i>' + L.curveFreezer + '</span></div></div>';
 
   const n = a.nutrition;
   h += '<h3 class="an-title">' + L.nutrTitle + '</h3>';
