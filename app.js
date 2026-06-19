@@ -271,8 +271,15 @@ async function loadRecipe(file) {
     if (h1 && meta) {
       const chips = document.createElement('div');
       chips.className = 'recipe-meta';
+      let kcalChip = '';
+      if (meta.ingredients && window.Calc) {
+        const kcal = Math.round(Calc.analyze(meta.ingredients).nutrition.kcal);
+        const cat = kcal < 130 ? T().kcalLight : kcal < 190 ? T().kcalMed : T().kcalRich;
+        kcalChip = '<span class="chip kcal-chip">' + cat + ' · ' + kcal + ' kcal</span>';
+      }
       chips.innerHTML = '<span class="chip">' + catName(meta.category) + '</span>'
-        + tagsOf(meta).map(t => '<span class="chip">' + t + '</span>').join('');
+        + tagsOf(meta).map(t => '<span class="chip">' + t + '</span>').join('')
+        + kcalChip;
       h1.insertAdjacentElement('afterend', chips);
       chips.insertAdjacentElement('afterend', buildToolbar(meta));
     }
