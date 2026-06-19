@@ -1,5 +1,5 @@
 [
-  { "file": "canela.md", "category": "gelato",
+  { "file": "canela.md", "category": "gelato", "notes": "",
     "ingredients": [
       { "k": "whole_milk", "g": 440 }, { "k": "cream35", "g": 135 }, { "k": "smp", "g": 35 },
       { "k": "sucrose", "g": 45 }, { "k": "dextrose", "g": 65 }, { "k": "inulin", "g": 15 },
@@ -9,7 +9,7 @@
     "ca": { "title": "Gelat de Canyella", "tags": ["espècies", "clàssic"] },
     "en": { "title": "Cinnamon Gelato", "tags": ["spices", "classic"] } },
 
-  { "file": "caramelo.md", "category": "gelato",
+  { "file": "caramelo.md", "category": "gelato", "notes": "",
     "ingredients": [
       { "k": "whole_milk", "g": 450 }, { "k": "cream35", "g": 130 }, { "k": "smp", "g": 35 },
       { "k": "sucrose", "g": 80 }, { "k": "dextrose", "g": 55 }, { "k": "inulin", "g": 15 },
@@ -19,7 +19,7 @@
     "ca": { "title": "Gelat de Caramel", "tags": ["caramel", "variegato"] },
     "en": { "title": "Caramel Gelato", "tags": ["caramel", "swirl"] } },
 
-  { "file": "chocolate.md", "category": "gelato",
+  { "file": "chocolate.md", "category": "gelato", "notes": "",
     "ingredients": [
       { "k": "whole_milk", "g": 470 }, { "k": "cream35", "g": 90 }, { "k": "cocoa_powder", "g": 65 },
       { "k": "smp", "g": 30 }, { "k": "sucrose", "g": 60 }, { "k": "dextrose", "g": 58 },
@@ -29,7 +29,7 @@
     "ca": { "title": "Gelat de Xocolata", "tags": ["xocolata"] },
     "en": { "title": "Chocolate Gelato", "tags": ["chocolate"] } },
 
-  { "file": "pistacho.md", "category": "gelato",
+  { "file": "pistacho.md", "category": "gelato", "notes": "",
     "ingredients": [
       { "k": "whole_milk", "g": 405 }, { "k": "pistachio_paste", "g": 100 }, { "k": "cream35", "g": 90 },
       { "k": "smp", "g": 30 }, { "k": "sucrose", "g": 43 }, { "k": "dextrose", "g": 47 },
@@ -39,7 +39,7 @@
     "ca": { "title": "Gelat de Pistatxo", "tags": ["fruit sec"] },
     "en": { "title": "Pistachio Gelato", "tags": ["nut"] } },
 
-  { "file": "avellana.md", "category": "gelato",
+  { "file": "avellana.md", "category": "gelato", "notes": "",
     "ingredients": [
       { "k": "whole_milk", "g": 470 }, { "k": "hazelnut_paste", "g": 90 }, { "k": "cream35", "g": 30 },
       { "k": "smp", "g": 30 }, { "k": "sucrose", "g": 54 }, { "k": "dextrose", "g": 49 },
@@ -49,7 +49,7 @@
     "ca": { "title": "Gelat d'Avellana", "tags": ["fruit sec"] },
     "en": { "title": "Hazelnut Gelato", "tags": ["nut"] } },
 
-  { "file": "speculoos.md", "category": "gelato",
+  { "file": "speculoos.md", "category": "gelato", "notes": "",
     "ingredients": [
       { "k": "whole_milk", "g": 450 }, { "k": "cream35", "g": 130 }, { "k": "brown_sugar", "g": 70 },
       { "k": "sucrose", "g": 25 }, { "k": "dextrose", "g": 41 }, { "k": "smp", "g": 25 },
@@ -59,7 +59,7 @@
     "ca": { "title": "Gelat de Speculoos", "tags": ["espècies", "caramel"] },
     "en": { "title": "Speculoos Gelato", "tags": ["spices", "caramel"] } },
 
-  { "file": "vainilla.md", "category": "gelato",
+  { "file": "vainilla.md", "category": "gelato", "notes": "",
     "ingredients": [
       { "k": "whole_milk", "g": 450 }, { "k": "cream35", "g": 165 }, { "k": "smp", "g": 35 },
       { "k": "sucrose", "g": 85 }, { "k": "dextrose", "g": 50 }, { "k": "inulin", "g": 15 },
@@ -69,7 +69,7 @@
     "ca": { "title": "Gelat de Vainilla", "tags": ["clàssic"] },
     "en": { "title": "Vanilla Gelato", "tags": ["classic"] } },
 
-  { "file": "limon-albahaca.md", "category": "sorbet",
+  { "file": "limon-albahaca.md", "category": "sorbet", "notes": "",
     "ingredients": [
       { "k": "water", "g": 408 }, { "k": "lemon_juice", "g": 180 }, { "k": "sucrose", "g": 100 },
       { "k": "dextrose", "g": 80 }, { "k": "inulin", "g": 30 }, { "k": "guar", "g": 0.8 }
@@ -78,7 +78,7 @@
     "ca": { "title": "Sorbet de Llimona i Alfàbrega", "tags": ["cítric", "herbal"] },
     "en": { "title": "Lemon & Basil Sorbet", "tags": ["citrus", "herbal"] } },
 
-  { "file": "mango.md", "category": "sorbet",
+  { "file": "mango.md", "category": "sorbet", "notes": "",
     "ingredients": [
       { "k": "mango_pulp", "g": 350 }, { "k": "water", "g": 245 }, { "k": "sucrose", "g": 78 },
       { "k": "dextrose", "g": 53 }, { "k": "inulin", "g": 20 }, { "k": "lemon_juice", "g": 30 }, { "k": "guar", "g": 0.4 }
@@ -87,7 +87,7 @@
     "ca": { "title": "Sorbet de Mango", "tags": ["fruita"] },
     "en": { "title": "Mango Sorbet", "tags": ["fruit"] } },
 
-  { "file": "sandia.md", "category": "sorbet",
+  { "file": "sandia.md", "category": "sorbet", "notes": "",
     "ingredients": [
       { "k": "watermelon_juice", "g": 530 }, { "k": "sucrose", "g": 80 }, { "k": "dextrose", "g": 45 },
       { "k": "inulin", "g": 30 }, { "k": "lemon_juice", "g": 20 }, { "k": "guar", "g": 0.6 }
@@ -96,7 +96,7 @@
     "ca": { "title": "Sorbet de Síndria", "tags": ["fruita"] },
     "en": { "title": "Watermelon Sorbet", "tags": ["fruit"] } },
 
-  { "file": "manzana-verde.md", "category": "sorbet",
+  { "file": "manzana-verde.md", "category": "sorbet", "notes": "",
     "ingredients": [
       { "k": "green_apple", "g": 400 }, { "k": "water", "g": 140 }, { "k": "lemon_juice", "g": 40 },
       { "k": "sucrose", "g": 94 }, { "k": "dextrose", "g": 37 }, { "k": "inulin", "g": 50 },
@@ -106,7 +106,7 @@
     "ca": { "title": "Sorbet de Poma Verda", "tags": ["fruita", "àcid"] },
     "en": { "title": "Green Apple Sorbet", "tags": ["fruit", "sour"] } },
 
-  { "file": "piparra.md", "category": "sorbet",
+  { "file": "piparra.md", "category": "sorbet", "notes": "",
     "ingredients": [
       { "k": "water", "g": 435 }, { "k": "piparra", "g": 120 }, { "k": "brine", "g": 20 },
       { "k": "olive_oil", "g": 30 }, { "k": "sucrose", "g": 32 }, { "k": "dextrose", "g": 106 },

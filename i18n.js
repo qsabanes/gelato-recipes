@@ -13,6 +13,8 @@ window.STRINGS = {
     about: 'Recetas generadas con un LLM y afinadas usando Scoopulator e IceCreamCalc como guías. El análisis técnico es una aproximación, no un valor de laboratorio.',
     qty: 'Cantidad', favorite: '☆ Favorito', favorited: '⭐ Favorito',
     screenOn: '🔆 Pantalla', screenOff: '💤 Pantalla', clear: '↺ Limpiar',
+    kcalLight: 'ligero', kcalMed: 'medio', kcalRich: 'indulgente',
+    tastingNotes: 'Notas de cata',
     categories: { gelato: 'Gelato', sorbet: 'Sorbete' },
     notFound: f => 'No se pudo cargar la receta (' + f + ').',
     noConfig: 'No se pudo cargar recipes.json.'
@@ -27,6 +29,8 @@ window.STRINGS = {
     about: "Receptes generades amb un LLM i afinades fent servir Scoopulator i IceCreamCalc com a guies. L'anàlisi tècnica és una aproximació, no un valor de laboratori.",
     qty: 'Quantitat', favorite: '☆ Preferit', favorited: '⭐ Preferit',
     screenOn: '🔆 Pantalla', screenOff: '💤 Pantalla', clear: '↺ Neteja',
+    kcalLight: 'lleuger', kcalMed: 'mig', kcalRich: 'indulgent',
+    tastingNotes: 'Notes de tast',
     categories: { gelato: 'Gelat', sorbet: 'Sorbet' },
     notFound: f => "No s'ha pogut carregar la recepta (" + f + ').',
     noConfig: "No s'ha pogut carregar recipes.json."
@@ -41,6 +45,8 @@ window.STRINGS = {
     about: 'Recipes generated with an LLM and tuned using Scoopulator and IceCreamCalc as guides. The technical analysis is an approximation, not a lab value.',
     qty: 'Quantity', favorite: '☆ Favourite', favorited: '⭐ Favourite',
     screenOn: '🔆 Screen', screenOff: '💤 Screen', clear: '↺ Reset',
+    kcalLight: 'light', kcalMed: 'medium', kcalRich: 'indulgent',
+    tastingNotes: 'Tasting notes',
     categories: { gelato: 'Gelato', sorbet: 'Sorbet' },
     notFound: f => 'Could not load recipe (' + f + ').',
     noConfig: 'Could not load recipes.json.'

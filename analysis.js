@@ -125,12 +125,12 @@ function buildCurve(L, fpdf, band) {
   [0, 0.25, 0.5, 0.75, 1].forEach(ice => {
     const px = x(ice).toFixed(1);
     s += '<line x1="' + px + '" y1="' + plotBottom + '" x2="' + px + '" y2="' + (plotBottom + 4) + '" stroke="var(--border)" stroke-width="1"/>';
-    s += '<text x="' + px + '" y="' + (plotBottom + 15) + '" class="c-tick" text-anchor="middle">' + Math.round(ice * 100) + ' %</text>';
+    s += '<text x="' + px + '" y="' + (plotBottom + 15) + '" class="c-tick" style="text-anchor:middle">' + Math.round(ice * 100) + ' %</text>';
   });
-  s += '<text x="' + (ml + pw / 2).toFixed(0) + '" y="' + (H - 4) + '" class="c-tick" text-anchor="middle">' + L.curveX + '</text>';
+  s += '<text x="' + (ml + pw / 2).toFixed(0) + '" y="' + (H - 4) + '" class="c-tick" style="text-anchor:middle">' + L.curveX + '</text>';
   const scoopX = x(Calc.SERVING_ICE_FRACTION);
   s += '<line x1="' + scoopX.toFixed(1) + '" y1="' + mt + '" x2="' + scoopX.toFixed(1) + '" y2="' + plotBottom + '" stroke="var(--ok)" stroke-dasharray="3 3" stroke-width="1.5"/>';
-  s += '<text x="' + (scoopX + 4).toFixed(0) + '" y="' + (plotBottom - 6) + '" class="c-tick">' + L.curveScoop + '</text>';
+  s += '<text x="' + (scoopX + 4).toFixed(0) + '" y="' + (plotBottom - 6) + '" class="c-tick" style="text-anchor:start">' + L.curveScoop + '</text>';
   s += '<polyline points="' + line + '" fill="none" stroke="var(--warn)" stroke-width="2.5"/>';
   s += '</svg>';
   return s;

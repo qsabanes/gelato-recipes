@@ -279,6 +279,10 @@ async function loadRecipe(file) {
     markScalable();
     applyScale(1);
     setupChecks();
+    if (meta && meta.notes)
+      content.insertAdjacentHTML('beforeend',
+        '<section class="tasting-notes"><h3>' + T().tastingNotes + '</h3><p>'
+        + meta.notes.replace(/\n/g, '<br>') + '</p></section>');
     if (meta && meta.ingredients && window.renderAnalysis)
       content.insertAdjacentHTML('beforeend', renderAnalysis(meta.ingredients, meta.category, lang));
     pushRecent(file);
@@ -292,9 +296,16 @@ async function loadRecipe(file) {
 
 // ---------- Home ----------
 function cardFor(r) {
+  let kcalBadge = '';
+  if (r.ingredients && window.Calc) {
+    const kcal = Math.round(Calc.analyze(r.ingredients).nutrition.kcal);
+    const cat = kcal < 130 ? T().kcalLight : kcal < 190 ? T().kcalMed : T().kcalRich;
+    kcalBadge = '<span class="kcal-badge">' + cat + ' · ' + kcal + ' kcal</span>';
+  }
   return '<a class="card" href="#' + r.file.replace(/\.md$/, '') + '">'
     + '<span class="card-body"><span class="card-title">' + titleOf(r) + '</span>'
-    + '<span class="card-tags">' + tagsOf(r).join(' · ') + '</span></span>'
+    + '<span class="card-tags">' + tagsOf(r).join(' · ') + '</span>'
+    + kcalBadge + '</span>'
     + '<button class="card-fav" data-file="' + r.file + '">' + (isFav(r.file) ? '⭐' : '☆') + '</button></a>';
 }
 function cardSection(title, list) {

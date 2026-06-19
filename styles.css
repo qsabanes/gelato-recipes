@@ -272,6 +272,7 @@ body {
 .card-body { display: flex; flex-direction: column; min-width: 0; }
 .card-title { font-weight: 600; font-size: .98rem; }
 .card-tags { font-size: .76rem; color: var(--muted); margin-top: 2px; }
+.kcal-badge { font-size: .72rem; color: var(--accent); font-weight: 600; margin-top: 4px; }
 .card-fav {
   position: absolute; top: 8px; right: 10px;
   background: none; border: none; cursor: pointer;
@@ -279,6 +280,11 @@ body {
 }
 .card-fav:hover { transform: scale(1.15); }
 .about-note { margin-top: 2.4em; padding-top: 1.2em; border-top: 1px solid var(--border); color: var(--muted); font-size: .82rem; max-width: 640px; }
+
+/* ---------- Tasting notes ---------- */
+.tasting-notes { margin-top: 2em; padding: 14px 18px; background: var(--accent-soft); border-radius: 12px; border-left: 3px solid var(--accent); }
+.tasting-notes h3 { margin: 0 0 .4em; font-size: 1rem; color: var(--accent); }
+.tasting-notes p { margin: 0; line-height: 1.6; }
 
 /* ---------- Analysis ---------- */
 .analysis { margin-top: 2.4em; border-top: 2px solid var(--border); padding-top: 1.4em; }
